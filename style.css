@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    /* font-family: 'Squada One', cursive; */
+}
+.navbar-color{
+    background-color: #FFFBF0;
+}
+.logo-aziz{
+    width: 250px;
+}
+.nav-aziz li{
+    padding: 5px 10px;
+    font-weight: 500;
+}
+.header-bg{
+    background-color: #FFFBF0;
+}
+.banner{
+    padding-top: 70px;
+}
+.banner-left h1{
+    /* font-family: 'Squada One', cursive; */
+    font-size: 65px;
+    text-transform:uppercase;
+    color: #363958;
+}
+.banner-left h1 span{
+    color: #FABE4C;
+}
+
+.button-green{
+    border-radius: 10px;
+    background-image: linear-gradient(#A4BC46,#7a8b32);
+    border: #A4BC46 solid 1px;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 35px;
+}
+.button-green img{
+    width: 30px;
+    height: 30px;
+}
+
+/* Product Section Start */
+.product-section h1{
+    display: flex;
+    justify-content: left;
+    font-weight: 600;
+}
+.card-aziz{
+    box-shadow: 1px 1px 15px rgba(150, 148, 148,0.3);
+    border-radius: 15px;
+    border: none;
+}
+.card-image{
+    height: 350px;
+    background-color: #F1F1F1;
+    border-radius: 15px;
+}
+.card-image img{
+    height: 100%;
+    object-fit: contain;
+    padding: 10px;
+    
+}
+.card-aziz-footer{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.card-aziz-footer p{
+    font-size: 40px;
+    font-weight: 500;
+    color: goldenrod;
+}
+/* 
+.about-sub{
+    height: 150px;
+    border: goldenrod 1px solid;
+    display: flex;
+    align-items: center;
+
+}
+.about-sub img{
+    height: 100px;
+    width: 100px;
+    border: goldenrod 1px solid;    
+} */
+.about-section{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    /* height: 500px; */
+    
+}
+.about-section .about-first{
+    width: 50%;
+    /* padding-right: 20px; */
+}
+.about-sub{
+    width: 90%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px rgba(150, 148, 148,0.3);
+    margin: 10px 0px;
+
+}
+.about-sub .about-sub-image{
+    height: 100px;
+    width: 100px;
+    margin: 20px;  
+    
+}
+.about-sub .about-sub-image img{
+    object-fit: contain;
+    width: 100%;
+}
+/* .about-sub .about-sub-details{
+    padding-right: 50px;
+} */
+.about-sub .about-sub-details h4{
+    font-weight: 600;
+}
+.about-section .about-second{
+    width: 50%;
+}
+.about-section .about-second img{
+    width: 100%;
+}
+
+
+/* Responsive  */
+
+@media screen and (max-width: 768px) {
+    .logo-aziz{
+        width: 210px;
+    }
+    .button-green{
+
+        font-size: 16px;
+        padding: 15px 20px;
+    }
+    .button-green img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .product-section h1{
+        justify-content: center;
+        font-weight: 500;
+    }
+
+    .about-section{
+        /* margin-top: 50px; */
+        flex-wrap: wrap-reverse;
+        margin-top: 50px;
+    }
+    .about-section .about-first{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .about-section .about-first .about-sub{
+        flex-direction: column;
+        /* justify-content: center; */
+        height: 275px;
+        text-align: center;
+        padding: 10px;
+        margin: 10px auto;
+    }
+    .about-section .about-second{
+        width: 100%;
+    }
+  }

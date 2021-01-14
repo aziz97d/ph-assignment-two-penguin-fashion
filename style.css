@@ -84,19 +84,10 @@ h1{
     font-weight: 500;
     color: goldenrod;
 }
-/* 
-.about-sub{
-    height: 150px;
-    border: goldenrod 1px solid;
-    display: flex;
-    align-items: center;
 
-}
-.about-sub img{
-    height: 100px;
-    width: 100px;
-    border: goldenrod 1px solid;    
-} */
+/* product section end */
+
+/* about section start */
 .about-section{
     width: 100%;
     display: flex;
@@ -119,7 +110,7 @@ h1{
 
 }
 .about-sub .about-sub-image{
-    height: 100px;
+    /* height: 100px; */
     width: 100px;
     margin: 20px;  
     
@@ -132,7 +123,10 @@ h1{
     padding-right: 50px;
 } */
 .about-sub .about-sub-details h4{
-    font-weight: 600;
+    font-weight: 500;
+}
+.about-sub .about-sub-details p{
+    margin:0 ;
 }
 .about-section .about-second{
     width: 50%;
@@ -140,9 +134,9 @@ h1{
 .about-section .about-second img{
     width: 100%;
 }
+/* about section end */
 
-
-/* Responsive  */
+/* Responsive start  */
 
 @media screen and (max-width: 768px) {
     .logo-aziz{
@@ -184,3 +178,5 @@ h1{
         width: 100%;
     }
   }
+
+  /* Responsive End */
